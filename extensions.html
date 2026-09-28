@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Плагины и расширения — Chesnokova Sofya Mikhailovna</title>
+  <meta name="description" content="Полезные расширения VS Code и плагины для PhpStorm и WebStorm.">
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=JetBrains+Mono&amp;display=optional">
+  <link rel="stylesheet" href="css/basscss.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+  <script src="js/theme.min.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner flex flex-wrap items-center">
+      <a class="logo" href="index.html">
+        <span class="logo__mark" aria-hidden="true">SC</span>
+        <span>Chesnokova Sofya</span>
+      </a>
+      <button class="theme-toggle" type="button" aria-label="Сменить тему" title="Сменить тему">
+        <svg class="theme-toggle__moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        <svg class="theme-toggle__sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      </button>
+      <input class="nav-toggle" id="nav-toggle" type="checkbox">
+      <label class="burger" for="nav-toggle">
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+        <span class="visually-hidden">Меню</span>
+      </label>
+      <nav class="nav" aria-label="Основное меню">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="index.html">Главная</a></li>
+          <li><a class="nav__link" href="vscode.html">VS Code</a></li>
+          <li><a class="nav__link" href="phpstorm.html">PhpStorm</a></li>
+          <li><a class="nav__link" href="webstorm.html">WebStorm</a></li>
+          <li><a class="nav__link" href="compare.html">Сравнение</a></li>
+          <li><a class="nav__link" href="extensions.html" aria-current="page">Плагины</a></li>
+          <li><a class="nav__link" href="shortcuts.html">Горячие клавиши</a></li>
+          <li><a class="nav__link" href="video.html">Видео</a></li>
+          <li><a class="sidebar__link" href="contacts.html">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container layout">
+    <main class="content">
+      <section class="intro">
+        <span class="intro__badge">Подборка</span>
+        <h1 class="intro__title"><span class="gradient-text">Плагины и расширения</span></h1>
+        <p class="intro__lead">Расширения добавляют редактору новые возможности.</p>
+      </section>
+
+      <p>VS Code почти полностью строится из расширений, а в IDE JetBrains большинство инструментов уже встроено, но полезные плагины есть и для них.</p>
+      <figure class="figure">
+        <picture>
+            <source type="image/webp" srcset="img/plugins-400.webp 400w, img/plugins-800.webp 800w, img/plugins-1200.webp 1200w" sizes="(min-width: 992px) 800px, (min-width: 768px) 65vw, 100vw">
+            <img src="img/plugins-800.jpg" srcset="img/plugins-400.jpg 400w, img/plugins-800.jpg 800w, img/plugins-1200.jpg 1200w" sizes="(min-width: 992px) 800px, (min-width: 768px) 65vw, 100vw" width="800" height="500" alt="Файл настроек settings.json с параметрами расширений" title="Настройки расширений хранятся в файле settings.json" loading="lazy">
+          </picture>
+        <figcaption class="figure__caption">Настройки расширений хранятся в файле settings.json</figcaption>
+      </figure>
+
+      <h2>Расширения для VS Code</h2>
+      <ul class="cards">
+        <li class="card">
+          <div class="card__body">
+            <h3 class="card__title">Prettier</h3>
+            <p class="card__text">Автоматическое форматирование кода.</p>
+          </div>
+        </li>
+        <li class="card">
+          <div class="card__body">
+            <h3 class="card__title">ESLint</h3>
+            <p class="card__text">Поиск ошибок в JavaScript.</p>
+          </div>
+        </li>
+        <li class="card">
+          <div class="card__body">
+            <h3 class="card__title">Live Server</h3>
+            <p class="card__text">Обновление страницы в браузере при сохранении.</p>
+          </div>
+        </li>
+        <li class="card">
+          <div class="card__body">
+            <h3 class="card__title">GitLens</h3>
+            <p class="card__text">История изменений каждой строки.</p>
+          </div>
+        </li>
+      </ul>
+
+      <h2>Плагины для PhpStorm и WebStorm</h2>
+      <ul class="cards">
+        <li class="card">
+          <div class="card__body">
+            <h3 class="card__title">Laravel Idea</h3>
+            <p class="card__text">Подсказки для фреймворка Laravel.</p>
+          </div>
+        </li>
+        <li class="card">
+          <div class="card__body">
+            <h3 class="card__title">Tailwind CSS</h3>
+            <p class="card__text">Автодополнение классов Tailwind.</p>
+          </div>
+        </li>
+        <li class="card">
+          <div class="card__body">
+            <h3 class="card__title">Rainbow Brackets</h3>
+            <p class="card__text">Цветные парные скобки.</p>
+          </div>
+        </li>
+        <li class="card">
+          <div class="card__body">
+            <h3 class="card__title">.ignore</h3>
+            <p class="card__text">Подсветка файлов .gitignore.</p>
+          </div>
+        </li>
+      </ul>
+    </main>
+
+    <aside class="sidebar">
+      <nav class="sidebar__block" aria-label="Разделы сайта">
+        <h2 class="sidebar__title">Разделы</h2>
+        <ul class="sidebar__list">
+          <li><a class="sidebar__link" href="index.html">Главная</a></li>
+          <li><a class="sidebar__link" href="vscode.html">VS Code</a></li>
+          <li><a class="sidebar__link" href="phpstorm.html">PhpStorm</a></li>
+          <li><a class="sidebar__link" href="webstorm.html">WebStorm</a></li>
+          <li><a class="sidebar__link" href="compare.html">Сравнение</a></li>
+          <li><a class="sidebar__link" href="extensions.html" aria-current="page">Плагины</a></li>
+          <li><a class="sidebar__link" href="shortcuts.html">Горячие клавиши</a></li>
+          <li><a class="sidebar__link" href="video.html">Видео</a></li>
+          <li><a class="sidebar__link" href="contacts.html">Контакты</a></li>
+        </ul>
+      </nav>
+      <section class="sidebar__block">
+        <h2 class="sidebar__title">Официальные сайты</h2>
+        <ul class="sidebar__list">
+          <li><a class="sidebar__link" href="https://code.visualstudio.com/" target="_blank" rel="noopener">Visual Studio Code ↗</a></li>
+          <li><a class="sidebar__link" href="https://www.jetbrains.com/phpstorm/" target="_blank" rel="noopener">PhpStorm ↗</a></li>
+          <li><a class="sidebar__link" href="https://www.jetbrains.com/webstorm/" target="_blank" rel="noopener">WebStorm ↗</a></li>
+        </ul>
+      </section>
+    </aside>
+  </div>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <h2 class="footer__title">Chesnokova Sofya Mikhailovna</h2>
+        <p class="m0">Учебный проект «IDE для веб-разработки». Вёрстка на CSS-фреймворке Basscss.</p>
+        <p class="mb0">&copy; 2026 Chesnokova Sofya Mikhailovna. Все права защищены.</p>
+      </div>
+      <div>
+        <h2 class="footer__title">Документация</h2>
+        <ul class="footer__list">
+          <li><a href="https://code.visualstudio.com/docs" target="_blank" rel="noopener">VS Code Docs</a></li>
+          <li><a href="https://www.jetbrains.com/help/phpstorm/" target="_blank" rel="noopener">PhpStorm Help</a></li>
+          <li><a href="https://www.jetbrains.com/help/webstorm/" target="_blank" rel="noopener">WebStorm Help</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="footer__title">Контакты</h2>
+        <ul class="footer__list">
+          <li><a href="mailto:student@example.com">student@example.com</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
