@@ -1,6 +1,6 @@
 # Chesnokova Sofya Mikhailovna — IDE для веб-разработки
 
-**Live-сайт:** https://USERNAME.github.io/REPOSITORY/
+**Live-сайт:** https://chesokova-sofya.github.io/webide-site/
 
 Учебный тематический сайт о средах разработки для веба: **Visual Studio Code**, **PhpStorm** и **WebStorm**. Сверстан на CSS-фреймворке **[Basscss](https://basscss.com/)** с собственными стилями по методологии БЭМ.
 
